@@ -1,6 +1,6 @@
 ---
 - name: Install VMware tools.
-  apt: name=open-vm-tools state=installed
+  apt: name=open-vm-tools state=absent
 
 - name: Create temporary directories for VMware tools.
   file:
